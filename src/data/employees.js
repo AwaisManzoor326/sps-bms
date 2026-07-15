@@ -1,3 +1,4 @@
+// Mirrors the PHP "REALISTIC DATA POOL" block from modules/employee-management/index.php
 
 const uniqueNames = [
   'Muhammad Awais', 'Muhammad Hammad Khan', 'Muhammad Ammar Yousaf', 'Syed Ijlal Shah', 'Hashim Ali',

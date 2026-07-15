@@ -21,7 +21,7 @@ export default function ActionDropdown({ employee, isOpen, onToggle, onOpenHours
       <button
         type="button"
         onClick={() => onToggle(employee.id)}
-        className="bg-[#2c72b8] hover:bg-[#235d97] text-white rounded px-2 py-0.5 text-[8.5px] font-bold inline-flex items-center space-x-1 shadow-sm transition-all focus:outline-none"
+        className="action-trigger-btn bg-[#2c72b8] hover:bg-[#235d97] text-white rounded px-2 py-0.5 text-[8.5px] font-bold inline-flex items-center space-x-1 shadow-sm transition-all focus:outline-none"
       >
         <ListAltIcon sx={{ fontSize: 8 }} />
         <span>Action</span>
@@ -29,7 +29,7 @@ export default function ActionDropdown({ employee, isOpen, onToggle, onOpenHours
       </button>
 
       {isOpen && (
-        <div className="absolute right-2 top-[26px] bg-white rounded border border-gray-300 shadow-2xl z-[9999] text-left py-1 text-gray-700 font-medium w-52 text-[11px] leading-snug">
+        <div className="local-dropdown-menu absolute right-2 top-[26px] bg-white rounded border border-gray-300 shadow-2xl z-[9999] text-left py-1 text-gray-700 font-medium w-52 text-[11px] leading-snug">
           <a
             href="#"
             onClick={(e) => {
